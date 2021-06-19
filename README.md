@@ -283,7 +283,7 @@ https://webdesign-trends.net/entry/8137
 
 ## 練習問題(よくあるパーツを作ってみましょう！)
 
-<img src="images/parts.png" width="600px">
+<img src="img/parts.png" width="600px">
 
 html
 ```
