@@ -531,7 +531,9 @@ box-shadow: 左右の向きpx  上下の向きpx ぼかしpx 広がりpx 色 内
 ## フォント系の指定
 ```
 
-/* 上から順番に継承していく */
+/* 
+フォントファミリーの指定
+上から順番に継承していく */
 body {
   font-family: "Helvetica Neue",
     Arial,
