@@ -551,11 +551,11 @@ body {
     font-size: 2em; // サイズ
     font-style: italic; // 斜め
     font-weight: bold; 太字
-    line-height: 1.5; 　親のサイズの何倍か
-    letter-spacing: 0.2em; 行間
+    line-height: 1.5; 　// 行間
+    letter-spacing: 0.2em; 
  }
  
-近年の流れはfont-sizeはremで指定する
+近年の流れはfont-sizeはremで指定することもある
 html {
     /* 1rem = 10px相当 */
     font-size: 62.5%;
@@ -566,17 +566,24 @@ p{
 }
 ```
 
+【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例<br>
+https://willcloud.jp/knowhow/font-family/
+<br>
+
 css letter-spacingで字間を調整する方法まとめ<br>
 https://saruwakakun.com/html-css/reference/letter-spacing
 
+<br>
+line-heightで行間を調整する方法：おすすめの値は？ <br>
+https://saruwakakun.com/html-css/reference/line-height
 
 
+<!--
 ### line-heightの図解
 
 <img src="img/line-height-1.jpg" width="300px">
 
-line-heightで行間を調整する方法：おすすめの値は？ <br>
-https://saruwakakun.com/html-css/reference/line-height
+-->
 
 ## webフォントについて
 https://saruwakakun.com/html-css/basic/google-fonts <br>
