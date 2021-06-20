@@ -186,7 +186,7 @@ https://saruwakakun.com/html-css/basic/chrome-dev-tool
 正円の半径の大きさを使って、円弧をベースにした角丸を実装できます。 <br>
 参考：https://www.webcreatorbox.com/tech/border-radius
 
-<img src="images/circle.png" width="200px">
+<img src="circle.png" width="200px">
 
 ```
 
