@@ -479,3 +479,110 @@ section {
 }
 ```
 -->
+
+
+# その他の表現
+
+### グラデーション
+
+<img src="images/gradation.png" width="300px">
+
+```
+参考：https://saruwakakun.com/html-css/basic/linear-radial-gradient 
+
+線形の例：
+background: linear-gradient(方向, 開始色, 終了色);
+background: linear-gradient(to right, #FFC778, #FFF);
+
+円形の例:
+background: radial-gradient(中央の色, 外側の色); 
+background: radial-gradient(#F13F79 20%, #FFC778 70%); 
+
+.boxB {
+    background: linear-gradient(to right, #1E90FF, #FFF);
+    width: 400px;
+    height: 300px;
+}
+
+```
+
+
+
+### 影
+ボックスシャドウ<br>
+参考: https://saruwakakun.com/html-css/basic/box-shadow 
+
+<img src="images/box-shadow.png" width="300px">
+
+```
+box-shadow: 左右の向きpx  上下の向きpx ぼかしpx 広がりpx 色 内側指定;
+例 .box {box-shadow: 2px 2px 4px -2px gray inset}
+
+.boxC {
+    width: 400px;
+    height: 300px;
+    background-color: skyblue;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+```
+
+## フォント系の指定
+```
+
+/* 上から順番に継承していく */
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+
+
+.boxD p{
+    color:red; // 色の指定
+    font-size: 20px; // サイズ
+    font-size: 2em; // サイズ
+    font-style: italic; // 斜め
+    font-weight: bold; 太字
+    line-height: 1.5; 　親のサイズの何倍か
+    letter-spacing: 0.2em; 行間
+ }
+ 
+近年の流れはfont-sizeはremで指定する
+html {
+    /* 1rem = 10px相当 */
+    font-size: 62.5%;
+}
+に設定して
+p{
+    font-size:1.5rem;  // のように指定するのが主流
+}
+```
+
+css letter-spacingで字間を調整する方法まとめ<br>
+https://saruwakakun.com/html-css/reference/letter-spacing
+
+
+
+### line-heightの図解
+
+<img src="images/line-height-1.jpg" width="300px">
+
+line-heightで行間を調整する方法：おすすめの値は？ <br>
+https://saruwakakun.com/html-css/reference/line-height
+
+## webフォントについて
+https://saruwakakun.com/html-css/basic/google-fonts <br>
+
+
+```
+こちらがまとまっています。
+https://saruwakakun.com/html-css/basic/google-fonts
+
+webフォントが表示されるまでのサーバーの仕組み: https://www.asobou.co.jp/blog/web/webfont
+```
