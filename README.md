@@ -281,6 +281,103 @@ https://webdesign-trends.net/entry/8137
 
 
 
+
+## 練習問題(よくあるパーツを作ってみましょう！)
+
+<img src="img/mondai1.png" width="600px">
+
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>よくあるパーツを作ってみよう！</h1>
+
+    <div id="box1">
+        <h2>01:よくある見出しとテキストブロック</h2>
+        <p>テキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキスト
+        </p>
+    </div>
+
+
+    <a id="btn" href="#">ボタン</a>
+    
+</body>
+</html>
+
+```
+
+```
+
+/* リセットcss */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+
+/* 問い1 */
+#box1{
+    width: 500px;
+    padding: 20px;
+    border: 2px solid #333;
+    margin-bottom: 100px;
+}
+
+#box1 h2{
+    border-left: 10px solid red;
+    padding-left: 20px;
+}
+
+#box1 p{
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+/* 遠いに*/
+
+#btn{
+    display: block;
+    width: 200px;
+    padding: 20px;
+    background:aquamarine;
+    color: #333;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+```
+
+
+<!--
 ## 練習問題(よくあるパーツを作ってみましょう！)
 
 <img src="img/parts.png" width="600px">
@@ -381,3 +478,4 @@ section {
     color: #fff;
 }
 ```
+-->
