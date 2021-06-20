@@ -485,7 +485,7 @@ section {
 
 ### グラデーション
 
-<img src="images/gradation.png" width="300px">
+<img src="img/gradation.png" width="300px">
 
 ```
 参考：https://saruwakakun.com/html-css/basic/linear-radial-gradient 
@@ -512,7 +512,7 @@ background: radial-gradient(#F13F79 20%, #FFC778 70%);
 ボックスシャドウ<br>
 参考: https://saruwakakun.com/html-css/basic/box-shadow 
 
-<img src="images/box-shadow.png" width="300px">
+<img src="img/box-shadow.png" width="300px">
 
 ```
 box-shadow: 左右の向きpx  上下の向きpx ぼかしpx 広がりpx 色 内側指定;
@@ -571,7 +571,7 @@ https://saruwakakun.com/html-css/reference/letter-spacing
 
 ### line-heightの図解
 
-<img src="images/line-height-1.jpg" width="300px">
+<img src="img/line-height-1.jpg" width="300px">
 
 line-heightで行間を調整する方法：おすすめの値は？ <br>
 https://saruwakakun.com/html-css/reference/line-height
