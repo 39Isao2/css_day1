@@ -578,12 +578,12 @@ line-heightで行間を調整する方法：おすすめの値は？ <br>
 https://saruwakakun.com/html-css/reference/line-height
 
 
-<!--
+
 ### line-heightの図解
 
 <img src="img/line-height-1.jpg" width="300px">
 
--->
+
 
 ## webフォントについて
 https://saruwakakun.com/html-css/basic/google-fonts <br>
