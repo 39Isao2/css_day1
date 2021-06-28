@@ -386,11 +386,13 @@ h1{
 ```
 
 
-<!--
 ## 練習問題(よくあるパーツを作ってみましょう！)
 
 <img src="img/parts.png" width="600px">
 
+
+
+<!--
 html
 ```
 
@@ -400,7 +402,7 @@ html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>パーツ制作課題</title>
-    <link rel="stylesheet" href="css/sample.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>パーツ制作課題</h1>
@@ -413,11 +415,6 @@ html
     <section id="koumoku02" class="parts02">
         <h2>02：ボタンの制作</h2>
         <p><a href="">ボタン</a></p>
-
-    </section>
-
-    <section id="koumoku03" class="parts03">
-        <h2>03：背景に画像を置いたメインビジュアル</h2>
     </section>
     
 </body>
