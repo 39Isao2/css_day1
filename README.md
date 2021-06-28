@@ -296,6 +296,7 @@ https://webdesign-trends.net/entry/8137
 <img src="img/mondai1.png" width="600px">
 
 
+<!--
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -379,12 +380,10 @@ h1{
 }
 
 
-
-
-
-
 ```
 
+
+-->
 
 
 <!--
