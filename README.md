@@ -233,6 +233,8 @@ html
     <!-- ここ！ -->
     <link rel="stylesheet" href="css/style.css">
     
+    <div class="target"></div>
+    
 </head>
 <body>
     
@@ -252,9 +254,7 @@ h1{
     height:100vh;
 }
 
-header{
-    background-color:pink;
-    width:100%; /*親要素に対して*/
+body{
     width: 100vw;   /*vw デバイスサイズに対して*/
     height: 100vh;    
     background-image:url(../images/sora.jpg);
@@ -262,8 +262,17 @@ header{
     background-repeat: no-repeat;
 }
 
-```
+.target{
+    width: 200px;
+    height: 200vh;    
+    background-image:url(../images/sora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+```
+CSSのbackground-sizeで背景画像サイズを設定する方法を徹底解説!!<br>
+https://www.sejuku.net/blog/83148
 
 # リセットCSS（ブラウザの初期cssをリセット）
 リセットCSSとは、ブラウザによって異なるデフォルトのCSSを打ち消して、<br>
