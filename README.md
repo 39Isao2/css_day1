@@ -580,7 +580,7 @@ https://saruwakakun.com/html-css/reference/line-height
 
 
 ### line-heightの図解
-
+line-height 40pxの場合
 <img src="img/line-height-1.jpg" width="300px">
 
 
